@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Examples</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+    <div id="content">
+        <p>Original content.</p>
+    </div>
+
+    <script>
+       var originalContent = $('#content').html();
+        console.log(originalContent);
+
+        $('#content').html('<p>New content!</p>');
+    </script>
+
+</body>
+</html>

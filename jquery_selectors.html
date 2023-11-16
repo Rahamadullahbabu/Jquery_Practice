@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Examples</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+    <p>This is a paragraph.</p>
+    <p id="special">This is a special paragraph.</p>
+    <p class="highlight">This is another paragraph.</p>
+
+    <script>
+        $('p').css('color', 'blue');
+
+        $('#special').text('This paragraph is now special!');
+
+        $('.highlight').css('background-color', 'yellow');
+    </script>
+
+</body>
+</html>
